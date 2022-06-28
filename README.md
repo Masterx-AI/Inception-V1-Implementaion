@@ -1,5 +1,6 @@
 ## Inception-V1 Model Description:
 
+![](https://github.com/Masterx-AI/Inception-V1-Implementaion/raw/main/InceptionV1.png)
 
 In a traditional neural network layer or convolutional neural network layer, the output from the previous layer is the input for the next layer and follows that pattern until the prediction. The basic idea of the inception network is the inception block. It takes apart the individual layers and instead of passing it through 1 layer it takes the previous layer input and passes it to four different operations in parallel and then concatenates the outlets from all these different layers. Below is the figure of the inception block. Don’t worry about the picture you saw below, we will get into the details of it.
 
